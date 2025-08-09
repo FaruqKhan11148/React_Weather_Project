@@ -50,7 +50,7 @@ npm install
 # Start the development server
 npm start
 \`\`\`
-The app will run on **http://localhost:3000/**
+The app will run on **http://localhost:5173/**
 
 ## 🔮 Future Enhancements
 - Add 5-day forecast feature.
