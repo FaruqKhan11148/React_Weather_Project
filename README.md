@@ -34,7 +34,8 @@ The Weather can be described as {info.weather} and feels like = {info.feels_like
 - **Styling:** CSS & MUI Styling System
 
 ## 📷 Screenshots
-*(Add your app screenshots here)*
+### 🌤 Home Page
+![Home Page](screenshots/image.png)
 
 ## 📦 Installation & Setup
 \`\`\`bash
