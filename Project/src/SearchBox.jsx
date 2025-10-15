@@ -29,6 +29,7 @@ export default function SearchBox({ updateInfo }) {
                 humidity: jsonResponse.main.humidity,
                 feels_like: jsonResponse.main.feels_like,
                 weather: jsonResponse.weather[0].description,
+                country: jsonResponse.sys.country,
             };
             return result;
         } catch (err) {
