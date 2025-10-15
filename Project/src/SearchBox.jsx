@@ -22,7 +22,7 @@ export default function SearchBox({ updateInfo }) {
             }
 
             let result = {
-                
+                city: city,
                 temp: jsonResponse.main.temp,
                 minTemp: jsonResponse.main.temp_min,
                 maxTemp: jsonResponse.main.temp_max,
