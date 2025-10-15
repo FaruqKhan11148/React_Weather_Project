@@ -28,7 +28,7 @@ export default function InfoBox({info}){
                     {info.city}  {info.country}  {info.humidity > 80 ? <ThunderstormIcon/> : info.temp>15 ? <WbSunnyIcon/> : <AcUnitIcon/>}
                     </Typography>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
-                    
+                    <p>Temprature = {info.temp}&deg;C</p>
                     <p>Humidity = {info.humidity}</p>
                     <p>Min Temp = {info.minTemp}&deg;C</p>
                     <p>Max Temp = {info.maxTemp}&deg;C</p>
